@@ -1,0 +1,90 @@
+
+/* Algemene styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    flex: 1;
+    padding: 25px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Grote schermen */
+@media (min-width: 1200px) {
+    .container {
+        border-color: blue;
+    }
+
+    .col {
+        background-color: lightblue;
+    }
+}
+
+/* Laptops */
+@media (max-width: 1199px) {
+    .container {
+        border-color: green;
+    }
+
+    .col {
+        background-color: lightgreen;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .container {
+        border-color: orange;
+    }
+
+    .col {
+        background-color: lightyellow;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex: 0 0 50%;
+    }
+}
+
+/* Mobiele telefoons */
+@media (max-width: 576px) {
+    .container {
+        border: 5px solid red;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+        flex: 0 0 100%;
+        background-color: lightcoral;
+    }
+}
