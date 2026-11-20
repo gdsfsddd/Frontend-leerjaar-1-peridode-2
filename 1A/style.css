@@ -1,0 +1,103 @@
+/* Algemene instellingen */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+
+.col-1 {
+  flex-grow: 0;
+  flex-basis: 8.33%;
+}
+
+
+.col-2 {
+  flex-grow: 0;
+  flex-basis: 16.66%;
+}
+
+
+.col-3 {
+  flex-grow: 0;
+  flex-basis: 25%;
+}
+
+
+.col-4 {
+  flex-grow: 0;
+  flex-basis: 33.33%;
+}
+
+
+.col-5 {
+  flex-grow: 0;
+  flex-basis: 41.66%;
+}
+
+
+.col-6 {
+  flex-grow: 0;
+  flex-basis: 50%;
+}
+
+
+.col-7 {
+  flex-grow: 0;
+  flex-basis: 58.33%;
+}
+
+
+.col-8 {
+  flex-grow: 0;
+  flex-basis: 66.66%;
+}
+
+
+.col-9 {
+  flex-grow: 0;
+  flex-basis: 75%;
+}
+
+
+.col-10 {
+  flex-grow: 0;
+  flex-basis: 83.33%;
+}
+
+
+.col-11 {
+  flex-grow: 0;
+  flex-basis: 91.66%;
+}
+
+
+.col-12 {
+  flex-grow: 0;
+  flex-basis: 100%;
+}
+
+
+[class^="col-"] {
+  background-color: lightblue;
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  min-height: 60px;
+}
