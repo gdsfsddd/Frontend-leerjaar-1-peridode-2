@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 15px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.column {
+    background-color: #3498db;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #217dbb;
+}
+    
