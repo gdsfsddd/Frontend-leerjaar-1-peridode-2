@@ -1,0 +1,62 @@
+
+/* Algemene instellingen */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Columns */
+.column {
+    background-color: #3498db;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Breedtes van de kolommen */
+.col-1 {
+    width: 16.666%;
+}
+
+.col-2 {
+    width: 16.666%;
+}
+
+.col-3 {
+    width: 16.666%;
+}
+
+.col-4 {
+    width: 16.666%;
+}
+
+.col-5 {
+    width: 16.666%;
+}
+
+.col-6 {
+    width: 16.666%;
+}
